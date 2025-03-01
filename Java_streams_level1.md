@@ -35,3 +35,16 @@ class StreamExercisesLevel1 {
 * **Learning Goal:** Understand `map()` for data transformation.
 * **Exercise: ** Given a list of strings, convert each string to uppercase.
 * **Your Code:
+```java
+public static List<String> transformToUppercase(List<String> strings) {
+        // Your code here
+        return null; // Replace with your implementation
+    }
+
+    @Test
+    void testTransformToUppercase() {
+        List<String> input = List.of("apple", "banana", "cherry");
+        List<String> expected = List.of("APPLE", "BANANA", "CHERRY");
+        assertEquals(expected, transformToUppercase(input));
+    }
+```
