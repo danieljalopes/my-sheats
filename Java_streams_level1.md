@@ -28,3 +28,10 @@ class StreamExercisesLevel1 {
         assertEquals(expected, filterEvenNumbers(input));
     }
 }
+```
+
+**2. Transforming Strings to Uppercase**
+
+* **Learning Goal:** Understand `map()` for data transformation.
+* **Exercise: ** Given a list of strings, convert each string to uppercase.
+* **Your Code:
