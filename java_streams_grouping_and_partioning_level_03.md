@@ -19,12 +19,14 @@
             return null; // Replace with your implementation
         }
 
-        @Test
-        void testGroupStringsByLength() {
-            List<String> input = List.of("apple", "banana", "cat", "dog", "kiwi");
-            Map<Integer, List<String>> expected = Map.of(3, List.of("cat", "dog"), 5, List.of("apple"),4, List.of("kiwi"), 6, List.of("banana"));
-            assertEquals(expected, groupStringsByLength(input));
-        }
+         @Test
+	    void testGroupPeopleByAge() {
+	        List<Person> input = List.of(new Person("Alice", 30), new Person("Bob", 25), new Person("Charlie", 30));
+	        Map<Integer, List<Person>> expected = Map.of( 30, List.of(new Person("Alice", 30), new Person("Charlie", 30)), 25, List.of(new Person("Bob", 25)));
+	        Map<Integer, List<Person>> result = groupPeopleByAge(input);
+	        assertEquals(expected.get(25).size(), result.get(25).size());
+	        assertEquals(expected.get(30).size(), result.get(30).size());
+	    }
     }
     ```
 
