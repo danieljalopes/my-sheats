@@ -1,5 +1,3 @@
-Absolutely! Here are 10 Level 1 exercises with learning goals, code snippets for you to complete (with unit tests), and corresponding solution code snippets
-
 **Level 1: Foundations - Basic Stream Operations**
 
 **1. Filtering Even Numbers**
