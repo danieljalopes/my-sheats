@@ -22,7 +22,7 @@
         @Test
         void testGroupStringsByLength() {
             List<String> input = List.of("apple", "banana", "cat", "dog", "kiwi");
-            Map<Integer, List<String>> expected = Map.of(3, List.of("cat", "dog"), 5, List.of("apple", "kiwi"), 6, List.of("banana"));
+            Map<Integer, List<String>> expected = Map.of(3, List.of("cat", "dog"), 5, List.of("apple"),4, List.of("kiwi"), 6, List.of("banana"));
             assertEquals(expected, groupStringsByLength(input));
         }
     }
