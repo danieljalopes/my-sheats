@@ -52,7 +52,7 @@
     import static org.junit.jupiter.api.Assertions.assertEquals;
 
     class StreamExercisesLevel4 {
-        public static OptionalInt findSecondHighest(List<Integer> numbers) {
+        public static Optional<Integer> findSecondHighest(List<Integer> numbers) {
             // Your code here
             return OptionalInt.empty(); // Replace with your implementation
         }
@@ -60,7 +60,7 @@
         @Test
         void testFindSecondHighest() {
             List<Integer> input = Arrays.asList(1, 5, 2, 9, 3, 9);
-            assertEquals(OptionalInt.of(5), findSecondHighest(input));
+            assertEquals(Optional.of(5), findSecondHighest(input));
         }
     }
     ```
